@@ -1,0 +1,19 @@
+# Normalize all text files by default
+* text=auto
+
+# Force LF (Unix style) for specific text‑file types
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+
+# Mark common binary assets so Git doesn't try to convert them
+*.png    binary
+*.jpg    binary
+*.svg    binary
+*.woff   binary
+*.woff2  binary
